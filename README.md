@@ -1,4 +1,4 @@
-# Sentinel-2 & Terrain-Driven Land Use Classification
+## Sentinel-2 & Terrain-Driven Land Use Classification
 ![image alt](https://github.com/diniyrti/Land_Use_Classification_RF/blob/main/image/land_use_rf.jpg)
 The integration of terrain attributes into the Random Forest classifier yielded a substantial performance boost, increasing the Overall Accuracy (OA) from 84% to 93%. While Scenario 1 only used spectral bands—where SWIR and Blue bands were primary drivers—it faced inherent limitations due to spectral confusion between classes with similar reflectance profiles, such as different types of vegetation. The inclusion of DEM Elevation, which emerged as the most dominant predictor with a 21.83% importance value, provided a critical vertical dimension that allowed the model to effectively stratify land cover types that are topographically dependent, significantly reducing misclassification in complex landscapes.
 
